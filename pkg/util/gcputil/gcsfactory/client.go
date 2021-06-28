@@ -19,9 +19,10 @@ import (
 	"fmt"
 
 	"cloud.google.com/go/storage"
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
 	"golang.org/x/oauth2"
 	"google.golang.org/api/option"
+
+	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
