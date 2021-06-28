@@ -27,7 +27,8 @@ See the [Resources and Labels](./doc/user/resource_labels.md) doc for an overvie
 ## Requirements
 
 - Kubernetes 1.8+
-- etcd 3.2.13+
+- etcd 3.5.0+
+- go 1.16
 
 ## Demo
 
