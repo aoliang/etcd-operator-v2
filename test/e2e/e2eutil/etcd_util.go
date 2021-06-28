@@ -18,8 +18,9 @@ import (
 	"context"
 	"testing"
 
+	"go.etcd.io/etcd/client/v3"
+
 	"github.com/coreos/etcd-operator/pkg/util/constants"
-	"github.com/coreos/etcd/clientv3"
 )
 
 const (

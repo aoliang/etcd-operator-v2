@@ -17,10 +17,11 @@ package cluster
 import (
 	"fmt"
 
+	"github.com/pkg/errors"
+	"go.etcd.io/etcd/api/v3/etcdserverpb"
+
 	"github.com/coreos/etcd-operator/pkg/util/etcdutil"
 	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
-	"github.com/coreos/etcd/etcdserver/etcdserverpb"
-	"github.com/pkg/errors"
 
 	"k8s.io/api/core/v1"
 )

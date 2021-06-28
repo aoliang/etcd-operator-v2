@@ -19,6 +19,7 @@ import (
 
 	"github.com/Azure/azure-sdk-for-go/storage"
 	"github.com/Azure/go-autorest/autorest/azure"
+
 	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
