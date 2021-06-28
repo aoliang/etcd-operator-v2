@@ -7,10 +7,10 @@ fi
 
 : ${IMAGE:?"Need to set IMAGE, e.g. gcr.io/coreos-k8s-scale-testing/etcd-operator"}
 
-echo "building container..."
+echo "building image..."
 docker build --tag "${IMAGE}" -f hack/build/Dockerfile . 1>/dev/null
 
 # For gcr users, do "gcloud docker -a" to have access.
 
-echo "pushing container..."
+echo "pushing image..."
 docker push "${IMAGE}" 1>/dev/null
