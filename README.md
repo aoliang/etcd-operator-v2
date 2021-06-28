@@ -1,6 +1,6 @@
 # etcd operator
 
-### Project status: archived
+### Project status: active
 
 This project is no longer actively developed or maintained. The project exists here for historical reference. If you are interested in the future of the project and taking over stewardship, please contact etcd-dev@googlegroups.com.
 
