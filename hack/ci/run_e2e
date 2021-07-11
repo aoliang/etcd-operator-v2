@@ -24,8 +24,6 @@ function finish {
 }
 trap finish EXIT
 
-hack/ci/get_dep
-
 BUILD_IMAGE=${BUILD_IMAGE:-true}
 if [[ ${BUILD_IMAGE} == "true" ]]; then
   gcloud docker -a

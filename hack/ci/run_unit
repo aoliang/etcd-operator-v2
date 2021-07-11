@@ -13,5 +13,4 @@ function finish {
 }
 trap finish EXIT
 
-hack/ci/get_dep
 hack/test
